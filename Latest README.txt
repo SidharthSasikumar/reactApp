@@ -29,10 +29,29 @@ Don't forget to add yourself to the CONTRIBUTING.md file in point form format
 
 
 
+
+
+
+
 The Stucture of the file are in the following format 
 	1.reactApp
 		1.1 App.jsx
 		1.2 CONTRIBUTING.md
 		1.3index.html
+						<!DOCTYPE html>
+						<html lang = "en">
+
+							<head>
+								<meta charset = "UTF-8">
+								<title>React App</title>
+							</head>
+
+							<body>
+								<div id = "app"></div>
+								<script src = "index.js"></script>
+							</body>
+
+						</html>
+		
 		1.4 mainjs
 		1.5webpack.config
